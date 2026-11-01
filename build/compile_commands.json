@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/rimka/Bureau/uin-campus/build",
+  "command": "/usr/bin/c++ -DUIN_VERSION=\\\"0.1.0\\\" -I/home/rimka/Bureau/uin-campus/include -g -std=gnu++23 uincampus_options INTERFACE ‐Wall ‐Wextra ‐Wpedantic ‐Wshadow ‐Wconversion -o CMakeFiles/uincampus_core.dir/src/version.cpp.o -c /home/rimka/Bureau/uin-campus/src/version.cpp",
+  "file": "/home/rimka/Bureau/uin-campus/src/version.cpp",
+  "output": "CMakeFiles/uincampus_core.dir/src/version.cpp.o"
+},
+{
+  "directory": "/home/rimka/Bureau/uin-campus/build",
+  "command": "/usr/bin/c++  -I/home/rimka/Bureau/uin-campus/include -g -std=gnu++23 uincampus_options INTERFACE ‐Wall ‐Wextra ‐Wpedantic ‐Wshadow ‐Wconversion -o CMakeFiles/uin_campus.dir/app/main.cpp.o -c /home/rimka/Bureau/uin-campus/app/main.cpp",
+  "file": "/home/rimka/Bureau/uin-campus/app/main.cpp",
+  "output": "CMakeFiles/uin_campus.dir/app/main.cpp.o"
+}
+]
