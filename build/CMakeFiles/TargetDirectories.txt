@@ -1,4 +1,0 @@
-/home/rimka/Bureau/uin-campus/build/CMakeFiles/uincampus_core.dir
-/home/rimka/Bureau/uin-campus/build/CMakeFiles/uin_campus.dir
-/home/rimka/Bureau/uin-campus/build/CMakeFiles/edit_cache.dir
-/home/rimka/Bureau/uin-campus/build/CMakeFiles/rebuild_cache.dir
