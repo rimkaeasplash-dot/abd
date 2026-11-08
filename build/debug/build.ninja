@@ -59,6 +59,26 @@ build CMakeFiles/uincampus_core.dir/src/version.cpp.o: CXX_COMPILER__uincampus_c
   OBJECT_FILE_DIR = CMakeFiles/uincampus_core.dir/src
   TARGET_SUPPORT_DIR = CMakeFiles/uincampus_core.dir
 
+build CMakeFiles/uincampus_core.dir/src/regles.cpp.o: CXX_COMPILER__uincampus_core_unscanned_Debug /home/rimka/Bureau/uin-campus/src/regles.cpp || cmake_object_order_depends_target_uincampus_core
+  CONFIG = Debug
+  DEFINES = -DUIN_VERSION=\"0.1.0\"
+  DEP_FILE = CMakeFiles/uincampus_core.dir/src/regles.cpp.o.d
+  FLAGS = -g -std=gnu++23 ‐Wall ‐Wextra ‐Wpedantic ‐Wshadow ‐Wconversion ‐fsanitize=address,undefined ‐fno‐omit‐frame‐pointer
+  INCLUDES = -I/home/rimka/Bureau/uin-campus/include
+  OBJECT_DIR = CMakeFiles/uincampus_core.dir
+  OBJECT_FILE_DIR = CMakeFiles/uincampus_core.dir/src
+  TARGET_SUPPORT_DIR = CMakeFiles/uincampus_core.dir
+
+build CMakeFiles/uincampus_core.dir/src/saisie.cpp.o: CXX_COMPILER__uincampus_core_unscanned_Debug /home/rimka/Bureau/uin-campus/src/saisie.cpp || cmake_object_order_depends_target_uincampus_core
+  CONFIG = Debug
+  DEFINES = -DUIN_VERSION=\"0.1.0\"
+  DEP_FILE = CMakeFiles/uincampus_core.dir/src/saisie.cpp.o.d
+  FLAGS = -g -std=gnu++23 ‐Wall ‐Wextra ‐Wpedantic ‐Wshadow ‐Wconversion ‐fsanitize=address,undefined ‐fno‐omit‐frame‐pointer
+  INCLUDES = -I/home/rimka/Bureau/uin-campus/include
+  OBJECT_DIR = CMakeFiles/uincampus_core.dir
+  OBJECT_FILE_DIR = CMakeFiles/uincampus_core.dir/src
+  TARGET_SUPPORT_DIR = CMakeFiles/uincampus_core.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target uincampus_core
@@ -67,7 +87,7 @@ build CMakeFiles/uincampus_core.dir/src/version.cpp.o: CXX_COMPILER__uincampus_c
 #############################################
 # Link the static library libuincampus_core.a
 
-build libuincampus_core.a: CXX_STATIC_LIBRARY_LINKER__uincampus_core_Debug CMakeFiles/uincampus_core.dir/src/version.cpp.o
+build libuincampus_core.a: CXX_STATIC_LIBRARY_LINKER__uincampus_core_Debug CMakeFiles/uincampus_core.dir/src/version.cpp.o CMakeFiles/uincampus_core.dir/src/regles.cpp.o CMakeFiles/uincampus_core.dir/src/saisie.cpp.o
   CONFIG = Debug
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/uincampus_core.dir

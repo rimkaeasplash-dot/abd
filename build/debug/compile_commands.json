@@ -7,6 +7,18 @@
 },
 {
   "directory": "/home/rimka/Bureau/uin-campus/build/debug",
+  "command": "/usr/bin/c++ -DUIN_VERSION=\\\"0.1.0\\\" -I/home/rimka/Bureau/uin-campus/include -g -std=gnu++23 ‐Wall ‐Wextra ‐Wpedantic ‐Wshadow ‐Wconversion ‐fsanitize=address,undefined ‐fno‐omit‐frame‐pointer -o CMakeFiles/uincampus_core.dir/src/regles.cpp.o -c /home/rimka/Bureau/uin-campus/src/regles.cpp",
+  "file": "/home/rimka/Bureau/uin-campus/src/regles.cpp",
+  "output": "/home/rimka/Bureau/uin-campus/build/debug/CMakeFiles/uincampus_core.dir/src/regles.cpp.o"
+},
+{
+  "directory": "/home/rimka/Bureau/uin-campus/build/debug",
+  "command": "/usr/bin/c++ -DUIN_VERSION=\\\"0.1.0\\\" -I/home/rimka/Bureau/uin-campus/include -g -std=gnu++23 ‐Wall ‐Wextra ‐Wpedantic ‐Wshadow ‐Wconversion ‐fsanitize=address,undefined ‐fno‐omit‐frame‐pointer -o CMakeFiles/uincampus_core.dir/src/saisie.cpp.o -c /home/rimka/Bureau/uin-campus/src/saisie.cpp",
+  "file": "/home/rimka/Bureau/uin-campus/src/saisie.cpp",
+  "output": "/home/rimka/Bureau/uin-campus/build/debug/CMakeFiles/uincampus_core.dir/src/saisie.cpp.o"
+},
+{
+  "directory": "/home/rimka/Bureau/uin-campus/build/debug",
   "command": "/usr/bin/c++ -I/home/rimka/Bureau/uin-campus/include -g -std=gnu++23 ‐Wall ‐Wextra ‐Wpedantic ‐Wshadow ‐Wconversion ‐fsanitize=address,undefined ‐fno‐omit‐frame‐pointer -o CMakeFiles/uin_campus.dir/app/main.cpp.o -c /home/rimka/Bureau/uin-campus/app/main.cpp",
   "file": "/home/rimka/Bureau/uin-campus/app/main.cpp",
   "output": "/home/rimka/Bureau/uin-campus/build/debug/CMakeFiles/uin_campus.dir/app/main.cpp.o"
