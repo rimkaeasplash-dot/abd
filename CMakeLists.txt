@@ -14,11 +14,16 @@ if(MSVC)
 target_compile_options(uincampus_options INTERFACE /W4 /permissive‐)
 else()
 target_compile_options(uincampus_options INTERFACE
-‐Wall ‐Wextra ‐Wpedantic ‐Wshadow ‐Wconversion)
+‐Wall 
+‐Wextra 
+‐Wpedantic 
+‐Wshadow 
+‐Wconversion)
 endif()
 if(UIN_ACTIVER_SANITIZERS AND NOT MSVC)
 target_compile_options(uincampus_options INTERFACE
-‐fsanitize=address,undefined ‐fno‐omit‐frame‐pointer)
+‐fsanitize=address,undefined 
+‐fno‐omit‐frame‐pointer)
 target_link_options(uincampus_options INTERFACE
 ‐fsanitize=address,undefined)
 endif()# ‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
