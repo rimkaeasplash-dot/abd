@@ -1,9 +1,18 @@
 # ninja log v7
-2	45	1794839983578087454	build.ninja	739c3119d4852b1c
-2	45	1794839983578087454	/home/rimka/Bureau/uin-campus/build/debug/cmake_install.cmake	739c3119d4852b1c
+2	45	1795251202614954933	build.ninja	739c3119d4852b1c
+2	45	1795251202613955179	/home/rimka/Bureau/uin-campus/build/debug/cmake_install.cmake	739c3119d4852b1c
 1	317	1794839983588087455	CMakeFiles/uincampus_core.dir/src/regles.cpp.o	bd3ec307de5c326c
 0	365	1794839983587909460	CMakeFiles/uincampus_core.dir/src/version.cpp.o	94ec2e4e30ec1563
 2	6147	1794839983590254753	CMakeFiles/uin_campus.dir/app/main.cpp.o	f036e6d7d4a20eb8
 2	2050	1794841215401122227	CMakeFiles/uincampus_core.dir/src/saisie.cpp.o	2e915dcfc6185816
 2050	2135	1794841217449122285	libuincampus_core.a	cb3dd9964b2160e5
 2135	2317	1794841217534122287	uin_campus	dea1ac3ef2439d58
+4	70	1795251202614954933	build.ninja	739c3119d4852b1c
+4	70	1795251202614954933	/home/rimka/Bureau/uin-campus/build/debug/cmake_install.cmake	739c3119d4852b1c
+4	1155	1795251965089912804	CMakeFiles/uincampus_core.dir/src/calculs.cpp.o	a01f5babf1d32c87
+5	6242	1795251965090912821	CMakeFiles/uin_campus.dir/app/main.cpp.o	f036e6d7d4a20eb8
+4	1141	1795252020641870704	CMakeFiles/uincampus_core.dir/src/calculs.cpp.o	a01f5babf1d32c87
+5	6228	1795252020642870721	CMakeFiles/uin_campus.dir/app/main.cpp.o	f036e6d7d4a20eb8
+4	2080	1795252100645255887	CMakeFiles/uincampus_core.dir/src/saisie.cpp.o	2e915dcfc6185816
+2080	2184	1795252102721291832	libuincampus_core.a	60b26cdc3d6827bc
+2184	2364	1795252102825293633	uin_campus	dea1ac3ef2439d58
